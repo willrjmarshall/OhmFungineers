@@ -43,8 +43,10 @@ class Ohmicide(LividControlSurface):
         stops = STOPS, 
         stop_all = STOP_ALL, 
         channel = CHANNEL,
+        shift = SHIFT,
         mixer = self.mixer)
-    self.session_zoom = LividSessionZoomingComponent(session = self.session, shift = SHIFT, channel = CHANNEL)
+    #self.session_zoom = LividSessionZoomingComponent(session = self.session, shift = SHIFT, channel = CHANNEL)
+
     
     # Session zoom
 
